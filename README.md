@@ -1,5 +1,7 @@
 # README
 
+This project is forked from "https://github.com/Aktharmiah/graph-test"
+
 This is a simple application, comprising of a frontend, created using HTML and Javascript and the backend, created using Java and SpringBoot.<br />
 Its aim is to transmit simple graph data via a websocket so that it can be displayed on the frontend as live data.
 
@@ -8,21 +10,26 @@ Its aim is to transmit simple graph data via a websocket so that it can be displ
 
 We are aware of a number of problems with this application which must be fixed. The known problems are as follows:
 
-1) The graph data is sent in the order that it was created in.
-2) When the end of the list is reached, the websocket continues to reach into the data collection.
-3) Cross-origin request are being blocked.
-4) Syntax errors.
+1) The graph data is sent in the order that it was created in. 
+2) When the end of the list is reached, the websocket continues to reach into the data collection. - Solved
+3) Cross-origin request are being blocked. - Solved
+4) Syntax errors. - Solved
 
 Note - there may be other problems which are not noted here.
 
 ## Your task
 1) Create a sorting algorithm so that the data is displayed in chronological order. This can be as part of the backe-end or the front-end. The data is 
-   stored in the following format: [{epochTime, floatValue}, {epochTime, floatValue}, {epochTime, floatValue}]
-3) Offer a solution to the item #2 as above
-4) Cross-origin settings needs correcting. They can be found in the `WebSocketConfig` file.
-5) Correct syntax errors.
-6) Review the code and make recommendations using comments (`//, #, /** */`)
-7) Make any improvements that you feel would make the application work better.
+   stored in the following format: [{epochTime, floatValue}, {epochTime, floatValue}, {epochTime, floatValue}] - Solved
+3) Offer a solution to the item #2 as above - Solved
+4) Cross-origin settings needs correcting. They can be found in the `WebSocketConfig` file. - Solved
+5) Correct syntax errors. - Solved
+6) Review the code and make recommendations using comments (`//, #, /** */`) - Solved
+7) Make any improvements that you feel would make the application work better. - Solved
+	
+	a) removed console.log in js files
+	b) removed unused class in backend
+	c) corrected the name and definition for ChartComponent
+	d) suggested the inline css should move to css file.
 
 
 ## Assumptions
