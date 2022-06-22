@@ -11,9 +11,9 @@ Its aim is to transmit simple graph data via a websocket so that it can be displ
 We are aware of a number of problems with this application which must be fixed. The known problems are as follows:
 
 1) The graph data is sent in the order that it was created in. 
-2) When the end of the list is reached, the websocket continues to reach into the data collection. - Solved
-3) Cross-origin request are being blocked. - Solved
-4) Syntax errors. - Solved
+2) When the end of the list is reached, the websocket continues to reach into the data collection.
+3) Cross-origin request are being blocked.
+4) Syntax errors.
 
 Note - there may be other problems which are not noted here.
 
