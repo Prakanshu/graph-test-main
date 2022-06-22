@@ -5,12 +5,11 @@ function ChartComponent(props=null){
 
     var dygraphCanvas = null;
     var motorSpeedDygraph = null;
-    dygraphCanvas = null;
     dygraphCanvas = React.createRef();
 
     useEffect(()=>{
 
-        console.log(">> chart component updated with new data.. %o", props.data);
+        // console.log(">> chart component updated with new data.. %o", props.data);
 
       if (props.data.length === 0 || dygraphCanvas === null ) {
         return;
